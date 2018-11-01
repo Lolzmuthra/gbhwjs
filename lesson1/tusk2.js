@@ -1,1 +1,3 @@
-let b = "jafjkgkagakg";
+let b = "jafjagakg";
+
+alert("kto?")
