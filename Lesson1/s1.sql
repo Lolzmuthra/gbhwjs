@@ -1,0 +1,8 @@
+SELECT * FROM table1 WHERE a8= b1;
+SELECT * FROM table3 WHERE a7= b2;
+SELECT * FROM table2 WHERE a6= b6;
+SELECT * FROM table4 WHERE a5= b8;
+SELECT * FROM table5 WHERE a4= b4;
+SELECT * FROM table6 WHERE a3= b3;
+SELECT * FROM table7 WHERE a2= b7;
+SELECT * FROM table8 WHERE a1= b1;
