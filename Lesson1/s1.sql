@@ -1,5 +1,3 @@
-SELECT * FROM table10 WHERE a8= b1;
-SELECT * FROM table3 WHERE a7= b20;
 
 
 SELECT * FROM table4 WHERE a5= b8;
@@ -12,6 +10,33 @@ SELECT * FROM table07 WHERE a2= b7;
 SELECT * FROM table8 WHERE a1= b10;
 
 
+
+SELECT * FROM table3 WHERE a7= b2;
+SELECT * FROM ta6le03 WHERE a7= b02;
 SELECT * FROM table2 WHERE a6= b6;
-SELECT * FROM table2 WHERE a6= b60;
+
+
+
+SELECT * FROM table3 WHERE a7= b2;
+SELECT * FROM table3 WHERE a7= b2;
 SELECT * FROM table2 WHERE a6= b6;
+
+
+
+SELECT * FROM table3 WHERE a7= b2;
+SELECT * FROM tab60le3 WHERE a7= b2;
+SELECT * FROM table2 WHERE a6= b6;
+
+
+
+SELECT * FROM table3 WHERE a7= b2;
+SELECT * FROM tab0le3 WHERE a7= b2;
+SELECT * FROM table2 WHERE a6= b6;
+
+
+SELECT * FROM table4 WHERE a5= b8;
+SELECT * FROM table5 WHERE a4= b04;
+
+--2652652074652965291
+SELECT * FROM tab6le6 WHERE a3= b3;
+SELECT * FROM table8 WHERE a1= b1;
