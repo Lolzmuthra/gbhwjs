@@ -1,0 +1,32 @@
+meta set {"UTF-8"}
+#chessboard {
+    width: 450px;
+    height: 460px;
+    box-shadow: 0 0 10px black;
+    padding: 10px;
+}
+.even-row, .odd-row {
+    display: flex;
+}
+.cell, .not-cell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.cell {
+    line-height: 55px;
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    box-shadow: 0 0 10px grey;
+}
+.not-cell {
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.odd-row .cell:nth-child(2n+1) {
+    background-color: grey;
+}
+.even-row .cell:nth-child(2n) {
+    background-color: grey;
+}
