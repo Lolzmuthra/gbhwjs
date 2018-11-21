@@ -1,0 +1,16 @@
+#big_gallery {
+    display: flex;
+    width: 700px;
+    height: 480px;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+#previous, #next {
+    display: block;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    line-height: 31;
+    width: 10%;
+}
