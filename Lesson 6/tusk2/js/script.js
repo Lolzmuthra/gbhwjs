@@ -1,23 +1,3 @@
-/*
-
-let product = document.getElementsByClassName("product");
-cart.innerHTML = "";
-
-for (let i = 0; i < product.length; i++) {
-    product[i].addEventListener("click", addProductInShop);
-}
-
-function addProductInShop(event) {
-    let eventElement = event.target;
-    let productId = parseInt(eventElement.getAttribute("data-product"));
-    let parentBox = eventElement.parentNode;
-    let productName = parentBox.getElementsByClassName("product-name").innerHTML;
-    let productPrice = parentBox.getElementsByClassName("product-price").innerHTML;
-    cart.innerHTML = productName + productPrice
-
-}
-*/
-
 let tovars = {};
 let cart = document.getElementById("cart");
 let products = [
