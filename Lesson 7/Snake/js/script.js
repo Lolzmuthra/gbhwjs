@@ -98,7 +98,7 @@ function move(){
     switch (direction) {
         case "x-":
             new_unit = document.getElementsByClassName("cell-"+((coord_x - 1 + field_size_x) % field_size_x)+"-"+coord_y)[0];
-            break;
+            break; // Благодаря остатку от деления змейка не может выйти из заданного размера поля
         case "x+":
             new_unit = document.getElementsByClassName("cell-"+((coord_x + 1) % field_size_x)+"-"+coord_y)[0];
             break;
