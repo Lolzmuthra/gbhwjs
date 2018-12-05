@@ -1,0 +1,34 @@
+.buttons {
+	width: 360px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#snake-start, #snake-renew{
+	width: 140px; 
+	padding: 15px; 
+	color: white;
+	background: green;
+	text-align: center;
+	cursor: pointer;
+}
+
+.game-table{
+	border-collapse: collapse;
+	background: black;
+	margin-bottom: 10px;
+}
+
+.game-table-cell {
+    width: 15px;
+    height: 15px;
+    border: 1px dotted #eee;
+}
+
+.snake-unit{
+	background: white;
+}
+
+.food-unit{
+	background: red;
+}
