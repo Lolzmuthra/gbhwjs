@@ -1,0 +1,8 @@
+#gallery {
+    display: flex;
+    justify-content: space-between;
+}
+#gallery img {
+    width: 250px;
+    object-fit: contain;
+}
