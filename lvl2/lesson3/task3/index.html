@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="forma">
+    <fieldset>
+        <legend>Форма обратной связи</legend>
+        <label for="yourName">Ваше имя:</label>
+        <input type="text" placeholder="Введите имя" id="yourName" name="yourName"><div class="error-message">Только кириллица</div>
+        <br>
+        <label for="yourEmail">Ваш адрес:</label>
+        <input type="text" placeholder="example@mail.ru" id="yourEmail" name="yourEmail"><div class="error-message">Не бывает таких адресов ящитаю</div>
+        <br>
+        <label for="yourTel">Телефон:</label>
+        <input type="text" placeholder="+7(000)000-0000" id="yourTel"><div class="error-message">Да вы все врёти, нет такого номера!</div>
+        <br>
+        <label for="yourMessage"><b>Текст обращения:</b></label>
+        <br>
+        <textarea cols="40" rows="5" id="yourMessage"></textarea>
+        <br>
+        <input type="submit" value="Отравить">
+    </fieldset>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
