@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    min-height: calc(100vh - 200px);
+    width: 100%;
+}
+.response {
+    display: flex;
+    margin-bottom: 10px;
+}
+.name {
+    width: 15%;
+    padding: 5px;
+}
+.text {
+    width: 60%;
+    border: 1px solid grey;
+    padding: 5px;
+    overflow: hidden;
+}
+.buttons {
+    width: 15%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.status-0 {
+    border: 2px solid blue;
+}
+
+.status-1 {
+    border: 2px solid green;
+}
+
+.status-2 {
+    border: 2px solid red;
+}
