@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="./../jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form id="forma">
+    <fieldset>
+        <legend>Допрос с пристрастиями</legend>
+        <label for="yourName">Ваше имя:</label>
+        <input type="text" placeholder="Введите имя" id="yourName" name="yourName"><div class="error-message">Только кириллица</div>
+        <br>
+        <label for="yourEmail">Ваш адрес:</label>
+        <input type="text" placeholder="example@mail.ru" id="yourEmail" name="yourEmail"><div class="error-message">Не бывает таких адресов ящитаю</div>
+        <br>
+        <label for="yourTel">Телефон:</label>
+        <input type="text" placeholder="+7(000)000-0000" id="yourTel"><div class="error-message">Нужно ввести в формате +7(000)000-0000</div>
+        <br>
+        <label for="yourCity">Ваш город:</label>
+        <select id="yourCity">
+            <option selected disabled>Выберите город</option>
+        </select>
+        <br>
+        <label for="datepicker">Дата рождения</label>
+        <input type="text" id="datepicker">
+        <br>
+        <label for="yourMessage"><b>Текст обращения:</b></label>
+        <br>
+        <textarea cols="40" rows="5" id="yourMessage"></textarea>
+        <br>
+        <input type="submit" value="Отравить">
+    </fieldset>
+</form>
+<div id="dialog-message" title="Что-то сломалось">
+    <p>
+        <span style="float:left; margin:0 7px 50px 0;"></span>
+        Где-то ошибка. Возможно у нас, но, скорее всего, это вы все сломали.
+        Вам должно быть стыдно.
+    </p>
+    <p>
+        Попробуйте <b>перезагрузить страницу.</b>.
+    </p>
+</div>
+<script src="./../jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+<script src="./../jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
