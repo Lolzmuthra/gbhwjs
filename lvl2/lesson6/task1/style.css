@@ -1,0 +1,22 @@
+input[type="text"] {
+    width: 150px;
+    height: 20px;
+    font-size: 10px;
+}
+label {
+    display: inline-block;
+    min-width: 90px;
+}
+.wrong-value {
+    background-color: red;
+}
+.error-message {
+    display: none
+}
+.wrong-value + .error-message {
+    display: inline;
+    color: red;
+}
+#dialog-message {
+    display: none;
+}
