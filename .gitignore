@@ -1,5 +1,4 @@
 node_modules/
 server.js
-package-lock.json
 npm-debug.log
 .idea/
